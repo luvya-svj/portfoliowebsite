@@ -1,0 +1,612 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta name="description"
+        content="Vridhi Varliani – Chemical Engineer & Researcher. Portfolio showcasing projects, experience, and skills." />
+
+    <!-- Open Graph / Facebook -->
+    <meta property="og:type" content="website" />
+    <meta property="og:url" content="https://vridhivarliani.com/" />
+    <meta property="og:title" content="Vridhi Varliani – Chemical Engineer & Researcher" />
+    <meta property="og:description"
+        content="Portfolio of Vridhi Varliani, a chemical engineer and researcher specializing in process optimization and sustainability." />
+    <meta property="og:image" content="https://vridhivarliani.com/assets/images/didi.jpeg" />
+
+    <!-- Twitter -->
+    <meta property="twitter:card" content="summary_large_image" />
+    <meta property="twitter:url" content="https://vridhivarliani.com/" />
+    <meta property="twitter:title" content="Vridhi Varliani – Chemical Engineer & Researcher" />
+    <meta property="twitter:description"
+        content="Portfolio of Vridhi Varliani, a chemical engineer and researcher specializing in process optimization and sustainability." />
+    <meta property="twitter:image" content="https://vridhivarliani.com/assets/images/didi.jpeg" />
+
+    <title>Vridhi Varliani</title>
+    <link rel="icon" type="image/png" href="assets/images/favicon.png">
+    <link rel="stylesheet" href="style.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+        href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700;800&family=JetBrains+Mono:wght@400;500&display=swap"
+        rel="stylesheet" />
+</head>
+
+<body>
+    <div id="cursor-glow"></div>
+
+    <!-- ══════════════════════════════════════════════
+     TOP NAV
+══════════════════════════════════════════════ -->
+    <header id="site-header">
+        <nav class="nav-inner container">
+            <a href="#home" class="logo" aria-label="Home">VV<span class="dot">.</span></a>
+
+            <ul class="nav-links" id="nav-links">
+                <li><a href="#about">About</a></li>
+                <li><a href="#skills">Skills</a></li>
+                <li><a href="#experience">Experience</a></li>
+                <li><a href="#projects">Projects</a></li>
+                <li><a href="#certifications">Certifications</a></li>
+                <li><a href="#achievements">Achievements</a></li>
+                <li><a href="#contact">Contact</a></li>
+            </ul>
+
+            <a href="./assets/files/resume.pdf" download="Vridhi_Varliani_Resume.pdf" target="_blank"
+                rel="noopener noreferrer" class="nav-resume-btn btn btn-sm">
+                <svg xmlns="http://www.w3.org/2000/svg" width="14" height="14" viewBox="0 0 24 24" fill="none"
+                    stroke="currentColor" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round"
+                    aria-hidden="true">
+                    <path d="M21 15v4a2 2 0 0 1-2 2H5a2 2 0 0 1-2-2v-4" />
+                    <polyline points="7 10 12 15 17 10" />
+                    <line x1="12" y1="15" x2="12" y2="3" />
+                </svg>
+                Resume
+            </a>
+
+            <button class="menu-toggle" id="mobile-menu" aria-label="Open menu" aria-expanded="false">
+                <span class="bar"></span>
+                <span class="bar"></span>
+                <span class="bar"></span>
+            </button>
+        </nav>
+    </header>
+
+    <main>
+
+        <!-- ══════════════════════════════════════════════
+     HERO
+══════════════════════════════════════════════ -->
+        <section id="home" class="hero section">
+            <div class="container hero-container">
+
+                <!-- Left column -->
+                <div class="hero-left hero-load">
+                    <p id="hero-label" class="code-label">Hello, world! I'm</p>
+                    <h1 id="hero-title">Vridhi<br /><span class="hero-accent">Varliani</span></h1>
+                    <p class="hero-role">Chemical
+                        Engineer&nbsp;&nbsp;·&nbsp;&nbsp;Researcher&nbsp;&nbsp;·&nbsp;&nbsp;Builder</p>
+                    <p class="hero-bio">I design efficient, optimized, and impactful engineering systems — blending
+                        scientific precision with a passion for research-driven innovation.</p>
+                    <div class="hero-actions">
+                        <a href="#projects" class="btn btn-primary">View Projects</a>
+                        <a href="#contact" class="btn btn-ghost">Say Hello →</a>
+                    </div>
+                    <!-- Status indicator -->
+                    <div class="status-badge">
+                        <span class="status-dot"></span>
+                        Open to opportunities
+                    </div>
+                </div>
+
+                <!-- Right column — photo placeholder -->
+                <div class="hero-right hero-load hero-load--right">
+                    <div class="photo-frame" aria-label="Profile photo of Vridhi Varliani">
+                        <div class="photo-inner">
+                            <img src="./assets/images/didi.jpeg" alt="Vridhi Varliani - Chemical Engineer & Researcher"
+                                class="profile-img">
+                        </div>
+                    </div>
+                </div>
+
+            </div>
+
+            <!-- Scroll cue -->
+            <div class="scroll-cue" aria-hidden="true">
+                <span>scroll</span>
+                <div class="scroll-line"></div>
+            </div>
+        </section>
+
+        <!-- ══════════════════════════════════════════════
+     ABOUT
+══════════════════════════════════════════════ -->
+        <section id="about" class="about section">
+            <div class="container section-two-col">
+                <div class="section-eyebrow reveal">
+                    <span class="tag-label">
+                        <svg xmlns="http://www.w3.org/2000/svg" width="14" height="14" viewBox="0 0 24 24" fill="none"
+                            stroke="currentColor" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round"
+                            aria-hidden="true">
+                            <circle cx="12" cy="8" r="4" />
+                            <path d="M20 21a8 8 0 1 0-16 0" />
+                        </svg>
+                        01 / About
+                    </span>
+                </div>
+                <div class="section-body reveal reveal-delay-1">
+                    <h2 class="section-heading">A little bit<br />about me</h2>
+                    <p>I am a Master’s student in Engineering Management at the University of Massachusetts Amherst with
+                        a background in Chemical Engineering. I focus on applying data analysis, simulation, and
+                        engineering principles to improve process efficiency and support data-driven decision making.
+                    </p>
+                    <p>My experience includes research at IIT Bombay, where I built analytical workflows and simulations
+                        to enhance experimental accuracy and optimize industrial processes. I am particularly interested
+                        in sustainable engineering, process optimization, and analytics-driven problem solving.</p>
+                </div>
+            </div>
+        </section>
+
+        <!-- ══════════════════════════════════════════════
+     SKILLS
+══════════════════════════════════════════════ -->
+        <section id="skills" class="skills section bg-alt">
+            <div class="container section-two-col">
+                <div class="section-eyebrow reveal">
+                    <span class="tag-label">
+                        <svg xmlns="http://www.w3.org/2000/svg" width="14" height="14" viewBox="0 0 24 24" fill="none"
+                            stroke="currentColor" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round"
+                            aria-hidden="true">
+                            <path d="M4 17h6v2H4zm0-6h11v2H4zm0-6h16v2H4z" />
+                        </svg>
+                        02 / Skills
+                    </span>
+                </div>
+                <div class="section-body reveal reveal-delay-1">
+                    <h2 class="section-heading">What I work<br />with</h2>
+                    <div class="skills-grid anim-stagger">
+
+                        <div class="skill-block">
+                            <h3 class="skill-block-title">
+                                <svg xmlns="http://www.w3.org/2000/svg" width="13" height="13" viewBox="0 0 24 24"
+                                    fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="round"
+                                    stroke-linejoin="round" aria-hidden="true">
+                                    <polyline points="22 12 18 12 15 21 9 3 6 12 2 12" />
+                                </svg>
+                                Analytics &amp; Technical
+                            </h3>
+                            <ul class="skill-list">
+                                <li>Data Analysis &amp; Experimental Design</li>
+                                <li>Process Optimization &amp; Simulation Modeling</li>
+                                <li>Statistical &amp; Engineering Analysis</li>
+                            </ul>
+                        </div>
+
+                        <div class="skill-block">
+                            <h3 class="skill-block-title">
+                                <svg xmlns="http://www.w3.org/2000/svg" width="13" height="13" viewBox="0 0 24 24"
+                                    fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="round"
+                                    stroke-linejoin="round" aria-hidden="true">
+                                    <path
+                                        d="M14.7 6.3a1 1 0 0 0 0 1.4l1.6 1.6a1 1 0 0 0 1.4 0l3.77-3.77a6 6 0 0 1-7.94 7.94l-6.91 6.91a2.12 2.12 0 0 1-3-3l6.91-6.91a6 6 0 0 1 7.94-7.94l-3.76 3.76z" />
+                                </svg>
+                                Tools &amp; Programming
+                            </h3>
+                            <ul class="skill-list">
+                                <li>MATLAB, R, Python</li>
+                                <li>ASPEN, DWSIM</li>
+                                <li>PFV4, PowerPoint, Microsoft Excel</li>
+                            </ul>
+                        </div>
+
+                        <div class="skill-block">
+                            <h3 class="skill-block-title">
+                                <svg xmlns="http://www.w3.org/2000/svg" width="13" height="13" viewBox="0 0 24 24"
+                                    fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="round"
+                                    stroke-linejoin="round" aria-hidden="true">
+                                    <path
+                                        d="M12 2l3.09 6.26L22 9.27l-5 4.87 1.18 6.88L12 17.77l-6.18 3.25L7 14.14 2 9.27l6.91-1.01L12 2z" />
+                                </svg>
+                                Engineering Expertise
+                            </h3>
+                            <ul class="skill-list">
+                                <li>Chemical Process Engineering</li>
+                                <li>Energy Systems &amp; Process Design</li>
+                                <li>Technical Project Management</li>
+                            </ul>
+                        </div>
+
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- ══════════════════════════════════════════════
+     EXPERIENCE
+══════════════════════════════════════════════ -->
+        <section id="experience" class="experience section">
+            <div class="container section-two-col">
+                <div class="section-eyebrow reveal">
+                    <span class="tag-label">
+                        <svg xmlns="http://www.w3.org/2000/svg" width="14" height="14" viewBox="0 0 24 24" fill="none"
+                            stroke="currentColor" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round"
+                            aria-hidden="true">
+                            <rect x="2" y="7" width="20" height="14" rx="2" />
+                            <path d="M16 7V5a2 2 0 0 0-2-2h-4a2 2 0 0 0-2 2v2" />
+                        </svg>
+                        03 / Experience
+                    </span>
+                </div>
+                <div class="section-body reveal reveal-delay-1">
+                    <h2 class="section-heading">Work &amp;<br />Research</h2>
+
+                    <div class="timeline">
+
+                        <!-- IIT Bombay -->
+                        <article class="timeline-item">
+                            <div class="tl-dot"></div>
+                            <div class="tl-content">
+                                <div class="tl-meta">
+                                    <span class="tl-org">
+                                        <svg xmlns="http://www.w3.org/2000/svg" width="12" height="12"
+                                            viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8"
+                                            stroke-linecap="round" stroke-linejoin="round" aria-hidden="true">
+                                            <rect x="2" y="7" width="20" height="14" rx="2" />
+                                            <path d="M16 7V5a2 2 0 0 0-2-2h-4a2 2 0 0 0-2 2v2" />
+                                        </svg>
+                                        Indian Institute of Technology, Bombay
+                                    </span>
+                                    <span class="tl-badge">Jun – Jul 2024 · 2 mo</span>
+                                </div>
+                                <h3 class="tl-role">Research Assistant</h3>
+                                <p class="tl-type">Internship · India, On-site</p>
+                                <ul class="tl-bullets anim-stagger">
+                                    <li>Contributed to research at IIT Bombay using <strong>ASPEN</strong> and
+                                        simulation modelling for process optimisation across multiple research domains.
+                                    </li>
+                                    <li>Built a data analysis pipeline on high-speed <strong>Photon camera data
+                                            (PFV4)</strong>, improving cement particle motion tracking accuracy by
+                                        <strong>7%</strong>.
+                                    </li>
+                                    <li>Developed a <strong>track-analysis simulation</strong> to predict particle
+                                        behaviour, reducing prediction error by <strong>15%</strong>.</li>
+                                    <li>Co-led experimental protocol redesign with 3 researchers, cutting processing
+                                        time by <strong>6 hrs/experiment</strong>.</li>
+                                    <li>Designed and ran experiments on an <strong>electrostatic separator</strong>,
+                                        enhancing cement separation efficiency through data-driven optimisation.</li>
+                                </ul>
+                            </div>
+                        </article>
+
+                        <!-- Placeholder for future roles -->
+                        <div class="tl-more">
+                            <span class="mono c-muted">More experience coming soon…</span>
+                        </div>
+
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- ══════════════════════════════════════════════
+     PROJECTS
+══════════════════════════════════════════════ -->
+        <section id="projects" class="projects section bg-alt">
+            <div class="container">
+                <div class="projects-header reveal">
+                    <span class="tag-label">
+                        <svg xmlns="http://www.w3.org/2000/svg" width="14" height="14" viewBox="0 0 24 24" fill="none"
+                            stroke="currentColor" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round"
+                            aria-hidden="true">
+                            <path d="M22 19a2 2 0 0 1-2 2H4a2 2 0 0 1-2-2V5a2 2 0 0 1 2-2h5l2 3h9a2 2 0 0 1 2 2z" />
+                        </svg>
+                        04 / Projects
+                    </span>
+                    <h2 class="section-heading">Selected<br />Work</h2>
+                </div>
+
+                <div class="projects-grid">
+
+                    <article class="project-card reveal anim-scale">
+                        <div class="project-number mono">01</div>
+                        <div class="project-body">
+                            <h3>Carbon Sequestration</h3>
+                            <p>Researched 8+ carbon sequestration techniques, integrating data on improvements such as
+                                increased biodiversity, enhanced water quality, and healthier soil.</p>
+                            <div class="project-tags">
+                                <span>Research</span><span>Environment</span><span>Data</span>
+                            </div>
+                        </div>
+                        <div class="project-footer">
+                            <button class="btn btn-sm btn-ghost view-details" data-project="carbon">View
+                                Details</button>
+                        </div>
+                    </article>
+
+                    <article class="project-card reveal anim-scale">
+                        <div class="project-number mono">02</div>
+                        <div class="project-body">
+                            <h3>Magnetic Nanoparticles</h3>
+                            <p>Drove a 15% reduction in experiment repetitions through detailed, standardized synthesis
+                                protocols.</p>
+                            <div class="project-tags">
+                                <span>Nanotechnology</span><span>Protocol</span><span>Lab</span>
+                            </div>
+                        </div>
+                        <div class="project-footer">
+                            <button class="btn btn-sm btn-ghost view-details" data-project="nanoparticles">View
+                                Details</button>
+                        </div>
+                    </article>
+
+                    <article class="project-card reveal anim-scale">
+                        <div class="project-number mono">03</div>
+                        <div class="project-body">
+                            <h3>Manufacture of TAME Process</h3>
+                            <p>Authored and published a research paper in IJARESM detailing a novel process design for
+                                sustainable TAME manufacturing.</p>
+                            <div class="project-tags">
+                                <span>Published</span><span>Process Design</span><span>Sustainability</span>
+                            </div>
+                        </div>
+                        <div class="project-footer">
+                            <button class="btn btn-sm btn-ghost view-details" data-project="tame">View Details</button>
+                        </div>
+                    </article>
+
+                    <article class="project-card reveal anim-scale">
+                        <div class="project-number mono">04</div>
+                        <div class="project-body">
+                            <h3>Design of Flare System</h3>
+                            <p>Authored a research paper on flare tower design and simulation results, achieving
+                                first-author status.</p>
+                            <div class="project-tags">
+                                <span>Simulation</span><span>Engineering</span><span>Scientific</span>
+                            </div>
+                        </div>
+                        <div class="project-footer">
+                            <button class="btn btn-sm btn-ghost view-details" data-project="flare">View Details</button>
+                        </div>
+                    </article>
+
+                </div>
+
+            </div>
+        </section>
+
+        <!-- ══════════════════════════════════════════════
+     CERTIFICATIONS
+══════════════════════════════════════════════ -->
+        <section id="certifications" class="certifications section">
+            <div class="container section-two-col">
+                <div class="section-eyebrow reveal">
+                    <span class="tag-label">
+                        <svg xmlns="http://www.w3.org/2000/svg" width="14" height="14" viewBox="0 0 24 24" fill="none"
+                            stroke="currentColor" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round"
+                            aria-hidden="true">
+                            <path d="M22 10v6M2 10l10-5 10 5-10 5z" />
+                            <path d="M6 12v5c3 3 9 3 12 0v-5" />
+                        </svg>
+                        05 / Certifications
+                    </span>
+                </div>
+                <div class="section-body reveal reveal-delay-1">
+                    <h2 class="section-heading">Professional<br />Recognition</h2>
+                    <div class="achievements-grid anim-stagger">
+                        <article class="achievement-card">
+                            <div class="ach-head">
+                                <span class="ach-org">Petroleum Refining</span>
+                            </div>
+                            <p>Complete Guide to Products & Processes · Udemy</p>
+                        </article>
+                        <article class="achievement-card">
+                            <div class="ach-head">
+                                <span class="ach-org">Agile Certified Practitioner</span>
+                            </div>
+                            <p>Professional Certification · Udemy</p>
+                        </article>
+                        <article class="achievement-card">
+                            <div class="ach-head">
+                                <span class="ach-org">Project Management</span>
+                            </div>
+                            <p>Professional Certification · Udemy</p>
+                        </article>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- ══════════════════════════════════════════════
+     ACHIEVEMENTS & EXTRACURRICULARS
+══════════════════════════════════════════════ -->
+        <section id="achievements" class="achievements section bg-alt">
+            <div class="container section-two-col">
+                <div class="section-eyebrow reveal">
+                    <span class="tag-label">
+                        <svg xmlns="http://www.w3.org/2000/svg" width="14" height="14" viewBox="0 0 24 24" fill="none"
+                            stroke="currentColor" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round"
+                            aria-hidden="true">
+                            <path d="M6 9H4.5a2.5 2.5 0 0 1 0-5H6" />
+                            <path d="M18 9h1.5a2.5 2.5 0 0 0 0-5H18" />
+                            <path d="M4 22h16" />
+                            <path d="M10 14.66V17c0 .55.45 1 1 1h2c.55 0 1-.45 1-1v-2.34" />
+                            <path d="M12 2v12.66" />
+                            <path d="M12 7H7.5a2.5 2.5 0 0 1 0-5H12" />
+                            <path d="M12 7h4.5a2.5 2.5 0 0 0 0-5H12" />
+                        </svg>
+                        06 / Impact
+                    </span>
+                </div>
+                <div class="section-body reveal reveal-delay-1">
+                    <h2 class="section-heading">Achievements &<br />Extracurriculars</h2>
+
+                    <div class="achievements-grid anim-stagger">
+                        <article class="achievement-card">
+                            <div class="ach-head">
+                                <span class="ach-org">Chemergence</span>
+                                <span class="ach-stat">+25% Attendance</span>
+                            </div>
+                            <p>Revamped marketing plan incorporating digital strategies and targeted social media
+                                campaigns, achieving a 30% rise in student engagement.</p>
+                        </article>
+
+                        <article class="achievement-card">
+                            <div class="ach-head">
+                                <span class="ach-org">Dance Team Lead</span>
+                                <span class="ach-stat">3× Victory</span>
+                            </div>
+                            <p>Led a team of 8 dancers, managing 12 hours weekly of practice sessions, resulting in
+                                victories in intra-college dance competitions (2022 – 2024).</p>
+                        </article>
+
+                        <article class="achievement-card">
+                            <div class="ach-head">
+                                <span class="ach-org">NSS Stewardship</span>
+                                <span class="ach-stat">+30% Participation</span>
+                            </div>
+                            <p>Spearheaded volunteer recruitment efforts, securing deep community engagement and earning
+                                formal recognition from the program director in 2022.</p>
+                        </article>
+
+                        <article class="achievement-card">
+                            <div class="ach-head">
+                                <span class="ach-org">NSS Blood Drive</span>
+                                <span class="ach-stat">110 Units</span>
+                            </div>
+                            <p>Organised a blood donation drive in 2022, exceeding previous collection by 20% and
+                                significantly increasing hospital supplies.</p>
+                        </article>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- ══════════════════════════════════════════════
+     CONTACT & RESUME
+══════════════════════════════════════════════ -->
+        <section id="contact" class="contact section bg-alt">
+            <div class="container contact-container">
+
+                <div class="contact-left reveal">
+                    <span class="tag-label">
+                        <svg xmlns="http://www.w3.org/2000/svg" width="14" height="14" viewBox="0 0 24 24" fill="none"
+                            stroke="currentColor" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round"
+                            aria-hidden="true">
+                            <rect x="2" y="4" width="20" height="16" rx="3" />
+                            <path d="m2 7 10 7 10-7" />
+                        </svg>
+                        07 / Contact
+                    </span>
+                    <h2 class="contact-heading">Let's build<br />something<br /><span class="hero-accent">great.</span>
+                    </h2>
+                </div>
+
+                <div class="contact-right reveal reveal-delay-1">
+                    <p class="contact-intro">Open to internships, collaborations, and research opportunities. Drop me a
+                        line — I'd love to connect.</p>
+
+                    <div class="contact-links anim-stagger">
+                        <a href="mailto:varlianivridhi@gmail.com" class="contact-row">
+                            <span class="contact-row-label">
+                                <svg xmlns="http://www.w3.org/2000/svg" width="13" height="13" viewBox="0 0 24 24"
+                                    fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="round"
+                                    stroke-linejoin="round" aria-hidden="true">
+                                    <rect x="2" y="4" width="20" height="16" rx="3" />
+                                    <path d="m2 7 10 7 10-7" />
+                                </svg>
+                                Email
+                            </span>
+                            <span class="contact-row-value">varlianivridhi@gmail.com ↗</span>
+                        </a>
+                        <a href="https://linkedin.com/in/vridhivarliani" target="_blank" rel="noopener"
+                            class="contact-row">
+                            <span class="contact-row-label">
+                                <svg xmlns="http://www.w3.org/2000/svg" width="13" height="13" viewBox="0 0 24 24"
+                                    fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="round"
+                                    stroke-linejoin="round" aria-hidden="true">
+                                    <path
+                                        d="M16 8a6 6 0 0 1 6 6v7h-4v-7a2 2 0 0 0-2-2 2 2 0 0 0-2 2v7h-4v-7a6 6 0 0 1 6-6z" />
+                                    <rect x="2" y="9" width="4" height="12" />
+                                    <circle cx="4" cy="4" r="2" />
+                                </svg>
+                                LinkedIn
+                            </span>
+                            <span class="contact-row-value">linkedin.com/in/vridhivarliani ↗</span>
+                        </a>
+                    </div>
+
+                    <div class="resume-block">
+                        <p>Want the full picture?</p>
+                        <a href="./assets/files/resume.pdf" download="Vridhi_Varliani_Resume.pdf" target="_blank"
+                            rel="noopener noreferrer" class="btn btn-primary">
+                            <svg xmlns="http://www.w3.org/2000/svg" width="15" height="15" viewBox="0 0 24 24"
+                                fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="round"
+                                stroke-linejoin="round" aria-hidden="true">
+                                <path d="M21 15v4a2 2 0 0 1-2 2H5a2 2 0 0 1-2-2v-4" />
+                                <polyline points="7 10 12 15 17 10" />
+                                <line x1="12" y1="15" x2="12" y2="3" />
+                            </svg>
+                            Download Resume
+                        </a>
+                    </div>
+                </div>
+
+            </div>
+        </section>
+
+    </main>
+
+    <!-- ══════════════════════════════════════════════
+     FOOTER
+══════════════════════════════════════════════ -->
+    <footer>
+        <div class="container footer-inner">
+            <span class="mono c-muted">Vridhi Varliani · 2026</span>
+            <span class="c-muted">Built with HTML · CSS · JS</span>
+        </div>
+    </footer>
+
+    <!-- ══════════════════════════════════════════════
+     MODALS
+══════════════════════════════════════════════ -->
+    <div id="project-modal" class="modal-overlay" aria-hidden="true">
+        <div class="modal-content">
+            <button class="modal-close" aria-label="Close modal">&times;</button>
+            <div class="modal-body">
+                <div class="modal-header">
+                    <span id="modal-project-number" class="project-number mono"></span>
+                    <h2 id="modal-title"></h2>
+                    <div id="modal-tags" class="project-tags"></div>
+                </div>
+                <div class="modal-grid">
+                    <div class="modal-info">
+                        <h3>Overview</h3>
+                        <p id="modal-description"></p>
+                        <h3>Technical Challenges</h3>
+                        <p id="modal-challenges"></p>
+                        <h3>Key Results</h3>
+                        <p id="modal-results"></p>
+                    </div>
+                    <div class="modal-visual">
+                        <div class="illustration-container">
+                            <img id="modal-illustration" src="" alt="Technical Illustration">
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <!-- Back to Top -->
+    <button id="back-to-top" class="back-to-top" aria-label="Back to top">
+        <svg xmlns="http://www.w3.org/2000/svg" width="20" height="20" viewBox="0 0 24 24" fill="none"
+            stroke="currentColor" stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round">
+            <polyline points="18 15 12 9 6 15"></polyline>
+        </svg>
+    </button>
+
+    <script src="script.js"></script>
+</body>
+
+</html>
